@@ -1,6 +1,5 @@
 package exercicios;
 
-//equals compara duas Strings, se elas forem iguais retorna true se não false.
 import java.util.Scanner;
 
 public class Exe02 {
@@ -10,6 +9,7 @@ public class Exe02 {
 		
 		System.out.println("Informe um caractere: ");
 		String cte = sc.next();
+		//equals compara duas Strings, se elas forem iguais retorna true se não false.
 		if (cte.equals("a") || cte.equals("e") || cte.equals("i") || cte.equals("o") || cte.equals("u")) {
 			System.out.println("Vogal");
 		}
